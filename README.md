@@ -120,7 +120,7 @@ gdc.project(project_id,query,callbackFunction)
 for example 
 
 ````javascript
-gdc.project("TARGET-NBL",{expand:"summary,summary.experimental_strategies,summary.data_categories”})
+gdc.project("TARGET-NBL",{expand:"summary,summary.experimental_strategies,summary.data_categories"})
 ````
 
 which will push an object like this to your callbackFunction:
