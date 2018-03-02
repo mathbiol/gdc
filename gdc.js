@@ -2,6 +2,8 @@ console.log('gdc.js loaded at '+Date());
 
 // Genome data commons API info at https://gdc.cancer.gov/developers
 // API docs https://docs.gdc.cancer.gov/API/Users_Guide/Getting_Started/#api-endpoints
+// note adoption of graphql endpoint at https://api.gdc.cancer.gov/v0/graphql
+// Martin's also experimenting at https://graphqlbin.com/mZN1c5
 
 gdc=function(url){
     gdc.url=url||'https://gdc-api.nci.nih.gov'
