@@ -21,7 +21,7 @@ like all other operators described here, for example, these three  expressions a
 
 ````javascript
 
-gdc.get(’status’,console.log)
+gdc.get("status",console.log)
 gdc.status(console.log)
 gdc.status().then(console.log)
 

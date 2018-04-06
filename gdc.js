@@ -39,6 +39,7 @@ gdc.query2parms=function(qq){ // convert query string into JSON query object
     return pp
 }
 
+/*
 gdc.get=function(endPoint,q,fun){
     endPoint=endPoint||'status' // get status by default
     q=q||''
@@ -49,6 +50,17 @@ gdc.get=function(endPoint,q,fun){
     }else{
         return $.getJSON(gdc.url+'/'+endPoint+q)
     }
+}
+*/
+
+gdc.get = async function(endPoint,q,fun){
+    endPoint=endPoint||'status' // get status by default
+    q=q||''
+    q=gdc.parms2query(q)
+    //fun=fun||function(){}
+    var r = ((await fetch(gdc.url+'/'+endPoint+q)).json())
+    r.then(fun||function(){})
+    return r
 }
 
 // ENDPOINTS
