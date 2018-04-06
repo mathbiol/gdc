@@ -1,8 +1,8 @@
 # gdc
 
-live at [mathbiol.github.io/gdc](https://mathbiol.github.io/gdc)!
+live at [mathbiol.github.io/gdc/](https://mathbiol.github.io/gdc/)!
 
-Experimenting with Genomic Data Commons [gdc.cancer.gov](https://gdc.cancer.gov). To play with the library in this repository  have a go at the browser’s console at [mathbiol.github.io/gdc](https://mathbiol.github.io/gdc). This tool builds on a similar initiative to operate cBio’s API at [github.com/mathbiol/cbio](https://github.com/mathbiol/cbio).
+Experimenting with Genomic Data Commons [gdc.cancer.gov](https://gdc.cancer.gov). To play with the library in this repository  have a go at the browser’s console at [mathbiol.github.io/gdc/](https://mathbiol.github.io/gdc/). This tool builds on a similar initiative to operate cBio’s API at [github.com/mathbiol/cbio](https://github.com/mathbiol/cbio).
 ___
 
 ### .get
