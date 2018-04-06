@@ -4,7 +4,7 @@ console.log('gdc.js loaded at '+Date());
 // API docs https://docs.gdc.cancer.gov/API/Users_Guide/Getting_Started/#api-endpoints
 
 gdc=function(url){
-    gdc.url=url||'https://gdc-api.nci.nih.gov'
+    gdc.url=url||'https://api.gdc.cancer.gov'
     // for older versions url would use the template https://api.gdc.cancer.gov/<version>/legacy/
     // ini
     gdc.div = document.getElementById('gdcDiv')
